@@ -8,7 +8,8 @@ router.get('/', (_req, res) => {
     return {
       title: video.title,
       channel: video.channel,
-      image: video.image
+      image: video.image,
+      id: video.id
     }
   }))
 });
