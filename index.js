@@ -3,6 +3,7 @@ const app = express();
 const videoRoute = require('./routes/videos');
 const cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
+require('dotenv').config();
 const port = process.env.PORT || 8080;
 
 app.use(cors());
