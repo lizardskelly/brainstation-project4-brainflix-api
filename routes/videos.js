@@ -16,7 +16,6 @@ router.get('/', (_req, res) => {
 });
 
 router.post('/', (req, res) => {
-  console.log(req.body);
   const uploadRequest = {
     title: req.body.title,
     channel: req.body.channel,
